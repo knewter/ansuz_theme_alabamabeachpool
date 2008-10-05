@@ -1,17 +1,11 @@
-html {
-  background:#555;
-  color: #ddd;
-  /* background-image: url(/images/background-blue-squares.png); */
-  /* background-image: url(/images/background-blue-squares-2.png); */
-  /* background-image: url(/images/background-blue-squares-3.png); */
-  /* background-image: url(/images/background-blue-squares-4.png); */
-  /* background-image: url(/images/background-blue-squares-5.png); */
-  /* background-image: url(/images/background-blue-squares-6.png); */
-  background-image: url(/images/background-blue-squares-7.png);
-  background-repeat: repeat-x;
-}
 body{
   font-family: "Gill Sans","Franklin Gothic Medium","Lucida Grande",Arial,Helvetica;
+  background: #EDDED6 none repeat scroll 0 50%;
+}
+#wrapper{
+  background: #F8F6ED none repeat scroll 0 50%;
+  border-top: 10px solid #993333;
+  color: black;
 }
 #main{
   width: 800px;
@@ -23,15 +17,16 @@ body{
 }
 #header h1{
   font-size: 260%;
-  color: #fff;
-  background-color: #000;
   padding: 10px 0;
   width: 260px;
+  color: #c00;
 }
 #header .credits{
   display: block;
-  background-color: #c2c655;
+  background-color: #f8edbb;
   color: #111;
+  border: 10px solid #ded4a7;
+  border-top: 0;
   position: absolute;
   top: 0;
   left: 500px;
@@ -44,12 +39,6 @@ body{
   color: white;
 }
 #header h1 span.logo{
-  padding-left: 20px;
-  background-image: url(/images/ansuz_logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #111;
-  margin-right: 10px;
 }
 #sidebar{
   width: 200px;
@@ -61,22 +50,24 @@ body{
 }
 #navigation li a{
   padding: 5px 10px;
-  background-color: #111;
-  color: #ccc;
+  background: #993333 none repeat scroll 0 50%;
+  border-left: 10px solid #AA301C;
+  color: white;
   display: block;
   text-decoration: none;
 }
 #navigation li.active a,
 #navigation li.active a:hover {
-  background-color: #0084ff;
-  color: white;
+  background: #EDDED6 none repeat scroll 0 50%;
+  border-left: 10px solid #edded6;
+  color: #AA301C;
   cursor: default;
 }
 #navigation li a:hover {
-  color: white;
-  border-left: 4px solid #0084ff;
-  padding-left: 6px;
+  color: #AA301C;
+  border-left: 10px solid #edded6;
   background-color: #222;
+  background: #EDDED6 none repeat scroll 0 50%;
 }
 div#breadcrumb{
  background-color: #222;
@@ -85,28 +76,28 @@ div#breadcrumb{
 }
 #content{
   width: 570px;
-  background-color: #333;
   float: left;
   padding: 10px;
 }
 #footer{
   margin-top: 10px;
-  background-color: #111;
-  color: #aaa;
+  background-color: #EDDED6;
+  border-top: 2px solid #993333;
+  color: #AA301C;
   padding: 10px;
+  text-align: center;
 }
 div.clear{
   clear: both;
 }
 h2{
   font-size: 175%;
-  color: #0084ff;
+  color: #aa301c;
+  border-bottom: 1px solid #CCCCCC;
 }
 h3{
   font-size: 120%;
-  color: #0084ff;
-  background-color: #111;
-  padding: 6px 10px;
+  color: #aa301c;
   margin: 20px 0 6px;
 }
 p{
